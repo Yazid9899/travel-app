@@ -37,7 +37,7 @@ const Footer = () => {
               <FooterColumn title={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {columns.links.map((link) => (
-                    <Link href="/" key={link}>
+                    <Link href="https://idproject-1e9c9.web.app/" key={link}>
                       {link}
                     </Link>
                   ))}
@@ -49,7 +49,7 @@ const Footer = () => {
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 {FOOTER_CONTACT_INFO.links.map((link) => (
                   <Link
-                    href="/"
+                    href="mailto:yazidsiddiq9899@gmail.com"
                     key={link.label}
                     className="flex gap-4 md:flex-col lg:flex-row"
                   >

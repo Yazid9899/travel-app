@@ -58,8 +58,8 @@ const Camp = () => {
           />
           <CampSite
             backgroundImage="bg-bg-img-1"
-            title="Mountain View"
-            subtitle="Tangerang, Banten"
+            title="Halimun Puncak Camp"
+            subtitle="Bogor, Jawa Barat"
             peopleJoined="100+ joined"
           />
         </div>
